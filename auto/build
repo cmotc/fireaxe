@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+lb build noauto "$@" || exit 1
+
+cp awesome-amd64.hybrid.iso ../ ;cp awesome-frsec-amd64.hybrid.iso ../
